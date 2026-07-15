@@ -1,0 +1,31 @@
+{
+    "version":  "0.1.0",
+    "name":  "eycc-website",
+    "scripts":  {
+                    "lint":  "next lint",
+                    "build":  "next build",
+                    "dev":  "next dev",
+                    "start":  "next start"
+                },
+    "devDependencies":  {
+                            "typescript":  "^5.0.0",
+                            "@types/react-dom":  "^19.0.0",
+                            "tailwindcss":  "^4.0.0",
+                            "@types/react":  "^19.0.0",
+                            "@types/node":  "^20.0.0",
+                            "@tailwindcss/postcss":  "^4.0.0"
+                        },
+    "dependencies":  {
+                         "clsx":  "^2.1.0",
+                         "@radix-ui/react-accordion":  "^1.2.0",
+                         "@radix-ui/react-slot":  "^1.1.0",
+                         "react":  "^19.0.0",
+                         "next":  "^15.0.0",
+                         "tailwind-merge":  "^2.2.0",
+                         "react-dom":  "^19.0.0",
+                         "lucide-react":  "^0.400.0",
+                         "tw-animate-css":  "^1.0.0",
+                         "class-variance-authority":  "^0.7.0"
+                     },
+    "private":  true
+}
