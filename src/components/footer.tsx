@@ -48,6 +48,7 @@ const footerLinks = {
     { href: "/resources", label: "Resources" },
     { href: "/writeups", label: "Writeups" },
     { href: "/past-editions", label: "Past Editions" },
+    { href: "/certificate-verification", label: "Certificate Verification" },
   ],
   programs: [{ href: "/#register", label: "Register" }],
 };

@@ -12,6 +12,7 @@ const navLinks = [
   { href: "/writeups", label: "Writeups" },
   { href: "/past-editions", label: "Past Editions" },
   { href: "/ambassador", label: "Ambassador" },
+  { href: "/certificate-verification", label: "Certificate Verification" },
 ];
 
 export function Header() {
@@ -53,7 +54,7 @@ export function Header() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-2 md:flex">
+        <nav className="hidden items-center gap-1 lg:flex">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -69,7 +70,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <Link
             href="/#register"
             data-slot="button"
@@ -81,7 +82,7 @@ export function Header() {
 
         <button
           type="button"
-          className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border/60 bg-card/50 text-foreground md:hidden"
+          className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border/60 bg-card/50 text-foreground lg:hidden"
           onClick={() => setOpen(!open)}
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
@@ -95,7 +96,7 @@ export function Header() {
       </div>
 
       {open && (
-        <nav className="border-t border-border/60 bg-background md:hidden">
+        <nav className="border-t border-border/60 bg-background lg:hidden">
           <div className="flex flex-col gap-1 px-4 pb-4 pt-2">
             {navLinks.map((link) => (
               <Link

@@ -3,6 +3,7 @@
     "name":  "eycc-website",
     "scripts":  {
                     "lint":  "next lint",
+                    "test":  "node --experimental-strip-types --test tests/*.test.mjs",
                     "build":  "next build",
                     "dev":  "next dev",
                     "start":  "next start"
