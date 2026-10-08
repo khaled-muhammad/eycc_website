@@ -2,8 +2,7 @@ export interface Certificate {
   id: string;
   name: string;
   team: string;
-  individualRank: number | string;
-  teamRank: number | string;
+  achievement: string;
 }
 
 export function findCertificate(

@@ -1,1 +1,566 @@
-[]
+[
+  {
+    "id": "839405162738495",
+    "name": "Ali Yasser Ali Farhat",
+    "team": "0xBlinders",
+    "achievement": "Qualification for the EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "929182736450192",
+    "name": "Abdelrahman Mohamed Sayed Hassan",
+    "team": "Code Masters",
+    "achievement": "Achieving 11th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "806172839405162",
+    "name": "Mohammed Shady Mohammed Ezz El Din Abdelmeneom",
+    "team": "Code Masters",
+    "achievement": "Achieving 11th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "584950617283940",
+    "name": "Ahmed Abdelrahman Kamal",
+    "team": "CodeRed",
+    "achievement": "Achieving 9th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "684950617283940",
+    "name": "omar mohamed el nabawy shenishen",
+    "team": "CodeRed",
+    "achievement": "Achieving 9th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "673849506172839",
+    "name": "Youssef Hassan Abdallah Ahmed",
+    "team": "CodeRed",
+    "achievement": "Achieving 9th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "186847392018475",
+    "name": "Karem Hassan Mostafa",
+    "team": "Cyb3r_Ph4nt0ms",
+    "achievement": "Achieving 1st Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "728394051627384",
+    "name": "Rodinaa mostafa Mohamed",
+    "team": "Cyb3r_Ph4nt0ms",
+    "achievement": "Achieving 1st Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "941029384756102",
+    "name": "Sama Al Walid Hussein",
+    "team": "Cyb3r_Ph4nt0ms",
+    "achievement": "Achieving 1st Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "351627384950617",
+    "name": "Ziad Salah Abdelkader El-Turkey",
+    "team": "Cyb3r_Ph4nt0ms",
+    "achievement": "Achieving 1st Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "951627384950617",
+    "name": "Menna tullah Mohamed Mahmoud Elsaadany",
+    "team": "Cyber phantoms",
+    "achievement": "Achieving 13th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "239405162738495",
+    "name": "Mostafa Fathi Mahmoud Jumaa",
+    "team": "Cyber phantoms",
+    "achievement": "Achieving 13th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "517283940516273",
+    "name": "Rana Ben said",
+    "team": "Cyber phantoms",
+    "achievement": "Qualification for the EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "506172839405162",
+    "name": "Seif Hisham Maher Gwefel",
+    "team": "Cyber phantoms",
+    "achievement": "Qualification for the EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "273849506172839",
+    "name": "Jowairia Wael Rashad Manna Al-Zafri",
+    "team": "D3f4ult",
+    "achievement": "Qualification for the EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "462738495061728",
+    "name": "Roqia Mustafa Ahmed",
+    "team": "D3f4ult",
+    "achievement": "Qualification for the EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "906172839405162",
+    "name": "Adham Mohamed Abd Al Kawi Abd Al hadi Abd Al kawi",
+    "team": "G4mra",
+    "achievement": "Achieving 3rd Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "284950617283940",
+    "name": "Ammar Yasser Elsayed Ahmed",
+    "team": "G4mra",
+    "achievement": "Achieving 3rd Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "192938475610293",
+    "name": "Marwan Ashraf soliman ali",
+    "team": "G4mra",
+    "achievement": "Achieving 3rd Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "217485920183746",
+    "name": "Mazen Mohamed Ahmed Shehata",
+    "team": "G4mra",
+    "achievement": "Achieving 3rd Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "417283940516273",
+    "name": "Arwa Alaa Mohamed Elsaed Abuzekry",
+    "team": "Init to win it",
+    "achievement": "Achieving 7th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "262738495061728",
+    "name": "Haneen Mahmoud Fahmy Amin",
+    "team": "Init to win it",
+    "achievement": "Achieving 7th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "551627384950617",
+    "name": "Malak Ahmed Ebrahim Ahmed",
+    "team": "Init to win it",
+    "achievement": "Qualification for the EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "628394051627384",
+    "name": "Rodina Samir Abdulaziz Morad",
+    "team": "Init to win it",
+    "achievement": "Achieving 7th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "662738495061728",
+    "name": "Shahd Mohamed Mohamed Elrawy.",
+    "team": "Init to win it",
+    "achievement": "Achieving 7th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "165847362910485",
+    "name": "Abdulrahman Ibrahim Elsayed",
+    "team": "Kecc4k",
+    "achievement": "Achieving 8th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "484950617283940",
+    "name": "Hozayfa Mahmoud Ahmed",
+    "team": "Kecc4k",
+    "achievement": "Achieving 8th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "974857291038475",
+    "name": "Mohamed magdy mahmoud",
+    "team": "Kecc4k",
+    "achievement": "Achieving 8th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "740516273849506",
+    "name": "Mohanad Essam Sedik Khalifa",
+    "team": "Kecc4k",
+    "achievement": "Achieving 8th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "795061728394051",
+    "name": "Gannah Hossam Eldin Abbas Mustafa",
+    "team": "Nexus",
+    "achievement": "Achieving 12th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "595061728394051",
+    "name": "Hager Mohamed Gomaa Ismail",
+    "team": "Nexus",
+    "achievement": "Achieving 12th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "205847362910485",
+    "name": "Seif eldin ahmed sayed ahmed‬‏",
+    "team": "Nexus",
+    "achievement": "Achieving 12th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "540516273849506",
+    "name": "Tasneem Ali Mohamed",
+    "team": "Nexus",
+    "achievement": "Achieving 12th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "384950617283940",
+    "name": "Ahmed Ayman Abd elrazek",
+    "team": "Payload B 5 Geneh",
+    "achievement": "Achieving 5th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "873849506172839",
+    "name": "Hamza Ahmed Youssef Mohamed",
+    "team": "Payload B 5 Geneh",
+    "achievement": "Achieving 5th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "817283940516273",
+    "name": "Abdelrhman Mohamed Abdelrazek",
+    "team": "PenguinZ",
+    "achievement": "Achieving 6th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "528394051627384",
+    "name": "Abdullatif Hassan Abdullatif Khalifa",
+    "team": "PenguinZ",
+    "achievement": "Achieving 6th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "439405162738495",
+    "name": "Adham Mohamed Khairy",
+    "team": "PenguinZ",
+    "achievement": "Achieving 6th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "135847362910485",
+    "name": "ahmed mostafa asker",
+    "team": "PenguinZ",
+    "achievement": "Achieving 6th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "151029384756203",
+    "name": "Hamza Mohamed ElSayed Awad",
+    "team": "PenguinZ",
+    "achievement": "Achieving 6th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "240516273849506",
+    "name": "Amr Yasser Loksha",
+    "team": "Shadow Brokers",
+    "achievement": "Achieving 2nd Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "295061728394051",
+    "name": "Hamza Ebrahim Hafez",
+    "team": "Shadow Brokers",
+    "achievement": "Achieving 2nd Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "862738495061728",
+    "name": "Mayar Tarek Hekal",
+    "team": "Shadow Brokers",
+    "achievement": "Achieving 2nd Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "473849506172839",
+    "name": "Mohammed Ebrahim Seada",
+    "team": "Shadow Brokers",
+    "achievement": "Achieving 2nd Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "939405162738495",
+    "name": "Mahmoud Ibrahem",
+    "team": "xref",
+    "achievement": "Achieving 10th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "995847362910485",
+    "name": "Yara Ehab",
+    "team": "YARA RULES",
+    "achievement": "Achieving 4th Place — EYCC ’26 On-Site Final Round"
+  },
+  {
+    "id": "651627384950617",
+    "name": "Hamza Sherif Mahmoud El sayed",
+    "team": "Securiteen",
+    "achievement": "Achieving 16th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "773849506172839",
+    "name": "Mariem Mahmoud Abdelrahman Hamouda",
+    "team": "Securiteen",
+    "achievement": "Achieving 16th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "116847392018475",
+    "name": "Ahmed Hossam Shalaby",
+    "team": "MYKU",
+    "achievement": "Achieving 20th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "917283940516273",
+    "name": "Anas mohamed Mahfouz",
+    "team": "MYKU",
+    "achievement": "Achieving 20th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "962938475610293",
+    "name": "Nour mahomod zain",
+    "team": "MYKU",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "539405162738495",
+    "name": "Hana Amr Mohamed",
+    "team": "The Paranoids",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "440516273849506",
+    "name": "Lana Mohamed Elsabaa",
+    "team": "The Paranoids",
+    "achievement": "Achieving 18th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "784950617283940",
+    "name": "Mohamed Yasser Mohamed",
+    "team": "The Paranoids",
+    "achievement": "Achieving 18th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "884950617283940",
+    "name": "Tia Ahmed Mostafa",
+    "team": "The Paranoids",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "695061728394051",
+    "name": "Abdelrahman Mohamed Abdelrazek Abosherif",
+    "team": "UnKnown",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "717283940516273",
+    "name": "David George Youssef Skokry",
+    "team": "UnKnown",
+    "achievement": "Achieving 17th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "451627384950617",
+    "name": "Seif El-dean mohamed El-sayed nour",
+    "team": "UnKnown",
+    "achievement": "Achieving 17th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "562738495061728",
+    "name": "Yahia Mohammed Ramadan AbuKhalifa",
+    "team": "UnKnown",
+    "achievement": "Achieving 17th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "428394051627384",
+    "name": "Menna Ahmed Abd-Elrahman Said",
+    "team": "OMEGA",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "406172839405162",
+    "name": "Sama Yahia Abd Al Shakour Omar Bekheet",
+    "team": "OMEGA",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "935647382910293",
+    "name": "Shahd Ahmed Moussa",
+    "team": "OMEGA",
+    "achievement": "Achieving 19th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "339405162738495",
+    "name": "Tasneem Mahmoud Mohamed",
+    "team": "OMEGA",
+    "achievement": "Achieving 19th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "306172839405162",
+    "name": "Fatma ahmed mohamed abdel hakem",
+    "team": "OMEGA",
+    "achievement": "Achieving 19th Place — EYCC ’26 Online Qualifications Round"
+  },
+  {
+    "id": "317283940516273",
+    "name": "Abdelrahman Ghareeb Mahros",
+    "team": "Mickey Mouse",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "328394051627384",
+    "name": "Ahmed Fawzy Mohamed",
+    "team": "L3MES_TEAM",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "395061728394051",
+    "name": "Ahmed Mohamed Ahmed Mubarak",
+    "team": "Pharaonic",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "639405162738495",
+    "name": "Mahmoud Elshazly",
+    "team": "RadioCast",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "913847291048572",
+    "name": "Mohamed Mohamed Sadat Mohamed Hassan Rakha",
+    "team": "Net Guardian",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "617283940516273",
+    "name": "Reem Haitham Mohamed Glal",
+    "team": "Reem",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "895061728394051",
+    "name": "Youssef Zein Hassan Hussein Farraj",
+    "team": "Anonymous_Matrix",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "340516273849506",
+    "name": "Ahmed mohamed ahmed",
+    "team": "Free Palestine",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "573849506172839",
+    "name": "Youssef Mostafa Mohamed",
+    "team": "Free Palestine",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "373849506172839",
+    "name": "AbdelRahman Ahmed Wahba",
+    "team": "Sudo Code",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "928394051627384",
+    "name": "Yassen Mohamed Gaber Mohamed Ali Essa",
+    "team": "Sudo Code",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "122039485716203",
+    "name": "Adam Amr Ahmed",
+    "team": "MinTea",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "606172839405162",
+    "name": "Mazen Ahmed Mohamed Mohamed Abdelatif",
+    "team": "MinTea",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "251627384950617",
+    "name": "Mohab Zhran",
+    "team": "MinTea",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "828394051627384",
+    "name": "Mohammed Khalid Shehata Elsayed",
+    "team": "MinTea",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "739405162738495",
+    "name": "Yassin Ahmed abd El Mohsen eldweak",
+    "team": "MinTea",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "228394051827364",
+    "name": "Abdallh Nasser Ahmed",
+    "team": "3la 2llah in sha2 2llah",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "495061728394051",
+    "name": "Ayman Waleed Mohamed",
+    "team": "3la 2llah in sha2 2llah",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "940516273849506",
+    "name": "Enji Eslam Mohammed Hafez",
+    "team": "3la 2llah in sha2 2llah",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "751627384950617",
+    "name": "Khaled tarek",
+    "team": "3la 2llah in sha2 2llah",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "981928374650192",
+    "name": "Mohamed Ayman Abouelwafa",
+    "team": "3la 2llah in sha2 2llah",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "958475610293847",
+    "name": "Arwa mahmoud abdel hamid mahmoud Nabawe",
+    "team": "Shadow Protocol",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "173948572019384",
+    "name": "Lotoveka Tamer Thabet",
+    "team": "Shadow Protocol",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "103948572019384",
+    "name": "Omar Sayed Haggag",
+    "team": "Shadow Protocol",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "362738495061728",
+    "name": "Shahd salem abd eltawab salem ahmed abo eldahab",
+    "team": "Shadow Protocol",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "706172839405162",
+    "name": "Barthenia Fady",
+    "team": "SCRYM",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "840516273849506",
+    "name": "Fatma Ramadan Mohamed Abass",
+    "team": "SCRYM",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "144857291038475",
+    "name": "Hana Ramy Reda Mahmoud",
+    "team": "SCRYM",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "851627384950617",
+    "name": "Rahma Mahmoud Elsayed Elmahdy",
+    "team": "SCRYM",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  },
+  {
+    "id": "762738495061728",
+    "name": "Sama Yahia Youssef Ismail Mosleh",
+    "team": "SCRYM",
+    "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  }
+]

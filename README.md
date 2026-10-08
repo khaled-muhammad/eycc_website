@@ -40,7 +40,7 @@ Output is in `.next/`. Pages are statically generated; certificate verification 
 
 ## Certificate registry
 
-Add issued certificates to `src/data/certificates.json`. The registry is intentionally empty until the real IDs and results are supplied. Do not add example certificates to this file.
+Add issued certificates to `src/data/certificates.json`. The registry contains the 94 issued certificates supplied in `Book2.xlsx`. Do not add example certificates to this file.
 
 Each record has the following shape (example for documentation only):
 
@@ -49,12 +49,11 @@ Each record has the following shape (example for documentation only):
   "id": "REPLACE-WITH-ISSUED-ID",
   "name": "Participant name",
   "team": "Team name",
-  "individualRank": 1,
-  "teamRank": 2
+  "achievement": "Participation in the EYCC '26 Online Qualifications Round"
 }
 ```
 
-The file must contain a JSON array of these records. IDs must be unique strings and must exactly match the printed certificate, including letter case and leading zeroes. Keep IDs free of surrounding whitespace. Ranks can be numbers or text such as `"Joint 2nd"` or `"N/A"`.
+The file must contain a JSON array of these records. IDs must be unique strings and must exactly match the printed certificate, including letter case and leading zeroes. Keep IDs free of surrounding whitespace. `achievement` is the full certificate achievement text and can describe participation, qualification, or a placement; a rank is not required.
 
 The server looks up the exact ID, ignoring surrounding whitespace in the submitted input, and returns only the matching record. An unknown ID displays `This ID is not valid.` Network/server failures display a retry message. Rebuild and redeploy after changing the registry.
 

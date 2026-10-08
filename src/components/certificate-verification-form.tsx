@@ -120,11 +120,10 @@ export function CertificateVerificationForm() {
               {[
                 ["Name", state.certificate.name],
                 ["Team", state.certificate.team],
-                ["Individual rank", state.certificate.individualRank],
-                ["Team rank", state.certificate.teamRank],
+                ["Achievement", state.certificate.achievement],
                 ["Certificate ID", state.certificate.id],
               ].map(([label, value]) => (
-                <div key={label} className={label === "Certificate ID" ? "sm:col-span-2" : undefined}>
+                <div key={label} className={label === "Achievement" || label === "Certificate ID" ? "sm:col-span-2" : undefined}>
                   <dt className="text-xs text-muted-foreground">{label}</dt>
                   <dd className="mt-1 break-words text-sm font-medium [overflow-wrap:anywhere]">{value}</dd>
                 </div>
