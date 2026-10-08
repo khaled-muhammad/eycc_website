@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import { CircleCheck, CircleX, LoaderCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Certificate } from "@/lib/certificate-lookup";
+import { CertificateViewer } from "@/components/certificate-viewer";
 
 type VerificationState =
   | { status: "idle" | "loading" | "invalid" }
@@ -59,7 +60,8 @@ export function CertificateVerificationForm() {
   const hasError = state.status === "invalid" || state.status === "error";
 
   return (
-    <div className="panel mt-8 p-5 sm:p-8">
+    <>
+    <div className="panel mx-auto mt-8 max-w-xl p-5 sm:p-8">
       <form onSubmit={verifyCertificate} noValidate>
         <label htmlFor="certificate-id" className="text-sm font-medium">
           Certificate ID
@@ -133,5 +135,7 @@ export function CertificateVerificationForm() {
         )}
       </div>
     </div>
+    {state.status === "verified" && <CertificateViewer key={state.certificate.id} certificate={state.certificate} />}
+    </>
   );
 }

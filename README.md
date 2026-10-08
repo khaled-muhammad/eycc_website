@@ -37,6 +37,7 @@ Output is in `.next/`. Pages are statically generated; certificate verification 
 - `/past-editions` - Previous event highlights, sponsors, prizes, and photos
 - `/writeups` - CTF writeups
 - `/certificate-verification` - Verify a certificate by its ID
+- `/certificates/[id]` - View and download a verified certificate
 
 ## Certificate registry
 
@@ -58,6 +59,14 @@ The file must contain a JSON array of these records. IDs must be unique strings 
 The server looks up the exact ID, ignoring surrounding whitespace in the submitted input, and returns only the matching record. An unknown ID displays `This ID is not valid.` Network/server failures display a retry message. Rebuild and redeploy after changing the registry.
 
 Run lookup tests with `npm test` (Node.js 22.6+ with TypeScript stripping support) and run the production check with `npm run build`.
+
+## Certificate preview and download
+
+Valid IDs automatically generate a landscape A4 certificate using the registered name, team, and Achievement. The SVG preview and PDF download share one layout, with embedded Libre Caslon Text and Lato fonts. Their SIL Open Font License files are included in `public/fonts`.
+
+`GET /api/certificates/[id]?format=svg` returns the preview. Use `format=pdf&download=1` for a downloadable PDF. Unknown IDs return 404; document content always comes from the server registry. The PDF uses selectable text and vector artwork, and its QR code links to the corresponding certificate page.
+
+Set `CERTIFICATE_SITE_URL` to the site's public origin (for example, `https://example.com`) to keep QR links pointing to the production site across previews and custom hosting. If unset, the request origin is used. Fonts are bundled locally; document generation needs no external service.
 
 ## Project Structure
 

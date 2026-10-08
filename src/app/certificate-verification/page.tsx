@@ -11,8 +11,8 @@ export default function CertificateVerificationPage() {
   return (
     <section className="section-frame flex min-h-[80dvh] items-center pt-32">
       <div className="section-inner w-full">
-        <div className="mx-auto max-w-xl">
-          <div className="text-center">
+        <div className="mx-auto max-w-5xl">
+          <div className="mx-auto max-w-xl text-center">
             <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 ring-1 ring-primary/30">
               <ShieldCheck className="h-8 w-8 text-primary" aria-hidden="true" />
             </div>
