@@ -27,9 +27,12 @@ export default async function CertificatePage({ params }: { params: Promise<{ id
           <div className="mt-8 flex items-center gap-2 text-sm text-primary">
             <CircleCheck className="h-5 w-5" aria-hidden="true" /> Verified EYCC certificate
           </div>
-          <h1 className="section-title mt-3">{certificate.name}</h1>
-          <p className="mt-3 text-sm text-muted-foreground">Team: {certificate.team}</p>
-          <p className="mt-2 text-sm text-muted-foreground">Achievement: {certificate.achievement}</p>
+          <p className="mt-5 text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">Name</p>
+          <h1 className="mt-2 text-3xl font-semibold leading-tight text-foreground sm:text-5xl">{certificate.name}</h1>
+          <p className="mt-6 text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">Team</p>
+          <p className="mt-2 text-2xl font-semibold leading-tight text-primary sm:text-3xl">{certificate.team}</p>
+          <p className="mt-6 text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">Achievement</p>
+          <p className="mt-2 text-lg font-semibold leading-snug text-foreground sm:text-2xl">{certificate.achievement}</p>
           <CertificateViewer certificate={certificate} showPageLink={false} />
           <p className="mt-6 break-all font-mono text-xs text-muted-foreground">Certificate ID: {certificate.id}</p>
         </div>

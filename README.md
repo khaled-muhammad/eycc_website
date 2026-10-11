@@ -41,7 +41,7 @@ Output is in `.next/`. Pages are statically generated; certificate verification 
 
 ## Certificate registry
 
-Add issued certificates to `src/data/certificates.json`. The registry contains the 94 issued certificates supplied in `Book2.xlsx`. Do not add example certificates to this file.
+Add issued certificates to `src/data/certificates.json`. The registry contains the 94 certificates supplied in `Book2.xlsx` plus the 9 additional records supplied in `Book3.xlsx`.
 
 Each record has the following shape (example for documentation only):
 
@@ -50,7 +50,8 @@ Each record has the following shape (example for documentation only):
   "id": "REPLACE-WITH-ISSUED-ID",
   "name": "Participant name",
   "team": "Team name",
-  "achievement": "Participation in the EYCC '26 Online Qualifications Round"
+  "achievement": "Participation in the EYCC '26 Online Qualifications Round",
+  "certificateUrl": "https://drive.google.com/uc?export=download&id=FILE_ID"
 }
 ```
 
@@ -62,9 +63,9 @@ Run lookup tests with `npm test` (Node.js 22.6+ with TypeScript stripping suppor
 
 ## Certificate preview and download
 
-Valid IDs automatically generate a landscape A4 certificate using the registered name, team, and Achievement. The SVG preview and PDF download share one layout, with embedded Libre Caslon Text and Lato fonts. Their SIL Open Font License files are included in `public/fonts`.
+Valid IDs display the original issued PDF from the `certificateUrl` in the registry and provide a download button. If a remote source is temporarily unavailable, the server falls back to the generated landscape A4 certificate using the registered name, team, and Achievement. The generated SVG preview and PDF use embedded Libre Caslon Text and Lato fonts. Their SIL Open Font License files are included in `public/fonts`.
 
-`GET /api/certificates/[id]?format=svg` returns the preview. Use `format=pdf&download=1` for a downloadable PDF. Unknown IDs return 404; document content always comes from the server registry. The PDF uses selectable text and vector artwork, and its QR code links to the corresponding certificate page.
+`GET /api/certificates/[id]?format=pdf` streams the original source PDF, while `format=pdf&download=1` marks it as a download. `format=svg` returns the generated fallback preview. Unknown IDs return 404; document content always comes from the server registry. Generated PDFs use selectable text and vector artwork, and their QR code links to the corresponding certificate page.
 
 Set `CERTIFICATE_SITE_URL` to the site's public origin (for example, `https://example.com`) to keep QR links pointing to the production site across previews and custom hosting. If unset, the request origin is used. Fonts are bundled locally; document generation needs no external service.
 

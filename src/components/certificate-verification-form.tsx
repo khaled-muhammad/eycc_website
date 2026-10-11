@@ -118,7 +118,7 @@ export function CertificateVerificationForm() {
               <CircleCheck className="h-5 w-5 shrink-0" aria-hidden="true" />
               Certificate verified
             </h2>
-            <dl className="mt-5 grid gap-5 sm:grid-cols-2">
+            <dl className="mt-6 grid gap-6 sm:grid-cols-2">
               {[
                 ["Name", state.certificate.name],
                 ["Team", state.certificate.team],
@@ -126,8 +126,14 @@ export function CertificateVerificationForm() {
                 ["Certificate ID", state.certificate.id],
               ].map(([label, value]) => (
                 <div key={label} className={label === "Achievement" || label === "Certificate ID" ? "sm:col-span-2" : undefined}>
-                  <dt className="text-xs text-muted-foreground">{label}</dt>
-                  <dd className="mt-1 break-words text-sm font-medium [overflow-wrap:anywhere]">{value}</dd>
+                  <dt className="text-xs font-medium uppercase tracking-[0.16em] text-muted-foreground">{label}</dt>
+                  <dd className={[
+                    "mt-2 break-words font-semibold [overflow-wrap:anywhere]",
+                    label === "Name" ? "text-2xl leading-tight text-foreground sm:text-3xl" :
+                    label === "Team" ? "text-xl leading-tight text-primary sm:text-2xl" :
+                    label === "Achievement" ? "text-lg leading-snug text-foreground sm:text-xl" :
+                    "font-mono text-sm text-muted-foreground",
+                  ].join(" ")}>{value}</dd>
                 </div>
               ))}
             </dl>

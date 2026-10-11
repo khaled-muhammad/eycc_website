@@ -82,19 +82,18 @@ export function CertificateViewer({ certificate, showPageLink = true }: { certif
         <div className="overflow-x-auto" tabIndex={zoomed ? 0 : undefined} aria-label={zoomed ? "Zoomed certificate. Scroll horizontally to view." : undefined}>
           <div className={`relative bg-[#F7F4EB] ${zoomed ? "w-[1120px]" : "w-full"}`} style={{ aspectRatio: "1120 / 792" }}>
             {previewState !== "error" && (
-              <img
-                src={`${endpoint}?format=svg&attempt=${attempt}`}
-                alt={`EYCC certificate for ${certificate.name}, team ${certificate.team}. Achievement: ${certificate.achievement}. Certificate ID: ${certificate.id}.`}
-                width={1120}
-                height={792}
+              <iframe
+                key={attempt}
+                src={`${endpoint}?format=pdf`}
+                title={`EYCC certificate for ${certificate.name}. Certificate ID: ${certificate.id}.`}
                 onLoad={() => setPreviewState("ready")}
                 onError={() => setPreviewState("error")}
-                className="block h-auto w-full"
+                className={`block h-full min-h-[520px] border-0 ${zoomed ? "w-[1120px]" : "w-full"}`}
               />
             )}
             {previewState === "loading" && (
               <div role="status" className="absolute inset-0 flex items-center justify-center gap-3 bg-[#F7F4EB] text-sm text-[#143D2D]">
-                <LoaderCircle className="h-5 w-5 animate-spin" aria-hidden="true" /> Generating your certificate…
+                <LoaderCircle className="h-5 w-5 animate-spin" aria-hidden="true" /> Loading your certificate…
               </div>
             )}
             {previewState === "error" && (
@@ -109,7 +108,7 @@ export function CertificateViewer({ certificate, showPageLink = true }: { certif
         </div>
       </div>
       <p className="mt-4 text-xs leading-relaxed text-muted-foreground">
-        Download a print-ready PDF, or scan the QR code on the certificate to verify its details.
+        View the original issued certificate, download a print-ready PDF, or scan its QR code to verify the details.
       </p>
     </section>
   );

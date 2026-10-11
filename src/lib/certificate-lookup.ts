@@ -3,6 +3,7 @@ export interface Certificate {
   name: string;
   team: string;
   achievement: string;
+  certificateUrl?: string;
 }
 
 export function findCertificate(
